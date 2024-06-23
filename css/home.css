@@ -1,0 +1,261 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    position: sticky;
+    top: 0;
+}
+header img{
+    width: 200px;
+}
+header .abutton-div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    gap: 10px;
+}
+header .abutton{
+    background-color: #2249be;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+}
+header .abutton:hover{
+    background-color: #444;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #2249be;
+}
+nav .active{
+    color: #2249be;
+}
+nav button{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+.hover-button-s{
+    position: relative;
+}
+.hover-nav-s{
+    display: none;
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    line-height: 2;
+    background-color: lightblue;
+    z-index: 1;
+}
+.hover-nav-s a{
+    display: block;
+    padding: 10px;
+}
+.hover-button-p{
+    position: relative;
+}
+.hover-nav-p{
+    display: none;
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    line-height: 2;
+    background-color: lightblue;
+    z-index: 1;
+}
+.hover-nav-p a{
+    display: block;
+    padding: 10px;
+}
+.hover-button-i{
+    position: relative;
+}
+.hover-nav-i{
+    display: none;
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    line-height: 2;
+    background-color: lightblue;
+    z-index: 1;
+}
+.hover-nav-i a{
+    display: block;
+    padding: 10px;
+}
+.mobile-nav-btn{
+    display: none;
+}
+
+.hero{
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/bg.png);
+    background-size: contain;
+    background-position: center;
+}
+.help{
+    padding: 30px;
+}
+.help h1{
+    text-align: center;
+    font-size: 45px;
+}
+.help-flex{
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.help-box{
+    width: 300px;
+    text-align: left;
+}
+.help-h{
+    font-size: 25px;
+}
+.help-h .icon{
+    color: royalblue;
+    width: 10px;
+    height: 10px;
+}
+.help-p{
+    color: #444;
+}
+
+.choose h1{
+    text-align: center;
+    font-size: 45px;
+}
+.choose-flex1{
+    display: flex;
+}
+.half{
+    width: 50%;
+}
+.half img{
+    width: 100%;
+}
+.choose-flex2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.choose-box{
+    width: 300px;
+    text-align: center;
+}
+.choose-box img{
+    width: 100px;
+}
+.choose-h{
+    font-size: 20px;
+}
+.choose-p{
+    color: #444;
+}
+
+.product h1{
+    text-align: center;
+    font-size: 45px;
+}
+.product-gallery{
+    height: 480px;
+    text-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.product-gallery::-webkit-scrollbar{
+    width: 0;
+}
+.product-gallery img{
+    height: 100%;
+}
+
+.worked h1{
+    text-align: center;
+    font-size: 45px;
+}
+.worked-gallery{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    height: 60px;
+}
+.worked-gallery img{
+    height: 100%;
+}
+
+.project{
+    background-color: #2249be;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 30px;
+}
+.project button{
+    background-color: #2249be;
+    padding: 15px 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    font-stretch:expanded;
+}
+.project button:hover{
+    background-color: white;
+    color: #2249be;
+}
+
+.footer1{
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+    font-size: small;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    border-top: 2px solid white;
+}
+.footer1 a{
+    color: white;
+}
+.footer1 .fa-brands{
+    font-size: 20px;
+    background-color: royalblue;
+    padding: 8px;
+    border-radius: 50%;
+}
+.footer2{
+    background-color: dodgerblue;
+    padding: 40px;
+    border-top: 2px solid white;
+    color: white;
+    text-align: center;
+}

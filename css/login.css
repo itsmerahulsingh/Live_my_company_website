@@ -1,0 +1,233 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    position: sticky;
+    top: 0;
+}
+header img{
+    width: 200px;
+}
+header .abutton{
+    background-color: #2249be;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+}
+header .abutton:hover{
+    background-color: #444;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #2249be;
+}
+nav .active{
+    color: #2249be;
+}
+nav button{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+.hover-button-s{
+    position: relative;
+}
+.hover-nav-s{
+    display: none;
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    line-height: 2;
+    background-color: lightblue;
+    z-index: 1;
+}
+.hover-nav-s a{
+    display: block;
+    padding: 10px;
+}
+.hover-button-p{
+    position: relative;
+}
+.hover-nav-p{
+    display: none;
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    line-height: 2;
+    background-color: lightblue;
+    z-index: 1;
+}
+.hover-nav-p a{
+    display: block;
+    padding: 10px;
+}
+.hover-button-i{
+    position: relative;
+}
+.hover-nav-i{
+    display: none;
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    line-height: 2;
+    background-color: lightblue;
+    z-index: 1;
+}
+.hover-nav-i a{
+    display: block;
+    padding: 10px;
+}
+.mobile-nav-btn{
+    display: none;
+}
+
+main{
+    background: url(../assets/bg.png);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.half{
+    width: 50%;
+}
+main img{
+    width: 200px;
+}
+.start{
+    width: 250px;
+    background-color: white;
+    padding: 40px 80px;
+    border: none;
+    border-radius: 10px;
+}
+.start img{
+    width: 100px;
+    height: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 200px;
+    background-color: royalblue;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: white;
+    color: royalblue;
+}
+.btn2{
+    width: 200px;
+    background-color: white;
+    padding: 10px 30px;
+    color: royalblue;
+    text-decoration: none;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+}
+.forgot{
+    color: black;
+}
+.input{
+    background-color: #eee;
+    width: 200px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+}
+.fa-google{
+    color: rgb(221, 3, 3);
+}
+
+.footer1{
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+    font-size: small;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    border-top: 2px solid white;
+}
+.footer1 a{
+    color: white;
+}
+.footer1 .fa-brands{
+    font-size: 20px;
+    background-color: royalblue;
+    padding: 8px;
+    border-radius: 50%;
+}
+.footer2{
+    background-color: dodgerblue;
+    padding: 40px;
+    border-top: 2px solid white;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width:1000px) {
+    header{
+        flex-direction: column;
+    }
+    nav{
+        display: none;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .hover-nav-s{
+        width: 200px;
+    }
+    header .abutton-div{
+        line-height: 2;
+        margin: 10px 0;
+        display: none;
+    }
+    header .abutton{
+        padding: 0 10px;
+        text-align: center;
+        width: 100px;
+    }
+    .mobile-nav-btn{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        padding: 3px 5px;
+        border: 2px solid black;
+    }
+}
